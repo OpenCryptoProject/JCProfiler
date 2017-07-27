@@ -7,8 +7,8 @@ The usage is simple:
 1. Developer signalizes interseting parts of code to profile by insertion of fixed strings
 2. JCProfiler tool automatically generates all necessary testing code 
 3. Developer sets proper applet AID, applet CLA and APDU command which will trigger inspected operation
-4. Performance measurement client is executed to collect all required measurements 
-5. Applet source code is annotted with measured timings
+4. Performance measurement client is executed to collect all timing measurements 
+5. Applet source code is annotted with the extracted timings
 
 Please read [wiki](https://github.com/petrs/JCProfiler/wiki) for all details.
 

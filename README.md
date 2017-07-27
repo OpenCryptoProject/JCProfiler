@@ -39,7 +39,9 @@ private short multiplication_x_KA(Bignat scalar, byte[] outBuffer, short outBuff
 * You? Give it a try - love to hear the feedback :)
 
 ### Future work
+* Proper ant compilation, travis...
 * Averaging from multiple results instead of single run
 * Better analysis of applet and detection of developer-provided info
+* Automatic insertion of all performance traps (no requirement for manual templates)
 * Code improvements (a lot of hardcoded strings etc. )
 

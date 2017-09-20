@@ -1,7 +1,7 @@
 # JCProfiler
-Performance profiler for Java Card code 
+Performance profiler for JavaCard code 
 
-The performance profiling parts of Java Card applet code is a notoriously difficult task. As the card environment is build to protect stored and processed secrets even against an attacker with direct physical access, it's difficult to obtain precise timing trace for the executed code. We are not aware of any free performance profiler for Java Card platform so we decided to build one.
+The performance profiling parts of JavaCard applet code is a notoriously difficult task. As the card environment is build to protect stored and processed secrets even against an attacker with direct physical access, it's difficult to obtain precise timing trace for the executed code. We are not aware of any free performance profiler for Java Card platform so we decided to build one.
 
 The profiler is based on the following idea: The client-side testing application is executed. The target on-card operation is executed multiple times, but with a different constant (called performance trap ID) specifying what to measure during current call. Depending on the current value of performance trap ID, on-card operation is prematurely interrupted once the the specified performance trap matching provided ID is reached. The corresponding client-side measurements are collected and processed to compute time difference between consecutive traps.
 

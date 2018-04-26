@@ -38,6 +38,7 @@ private short multiplication_x_KA(Bignat scalar, byte[] outBuffer, short outBuff
 
 ### Satisfied users so far
 * [JCMathLib](https://github.com/OpenCryptoProject/JCMathLib) library for Bignat and ECPoint operations
+* [AEonJC](https://github.com/palkrajesh/AEonJC) implementation of ACORN, AEGIS, ASCON, CLOC, and MORUS authenticated encryption functions 
 * You? Give it a try - love to hear the feedback :)
 
 ### Future work

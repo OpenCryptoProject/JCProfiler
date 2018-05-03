@@ -92,6 +92,6 @@ public class JCProfiler {
     private void help() {
         HelpFormatter help = new HelpFormatter();
         help.setOptionComparator(null);
-        help.printHelp("ECTester.jar", CLI_HEADER, opts, CLI_FOOTER, true);
+        help.printHelp("JCProfiler.jar", CLI_HEADER, opts, CLI_FOOTER, true);
     }    
 }

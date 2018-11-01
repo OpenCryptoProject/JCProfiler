@@ -12,6 +12,10 @@ The usage is simple:
 4. Performance measurement client is executed to collect all timing measurements 
 5. Applet source code is annotted with the extracted timings
 
+Take a look at short tutorial (thx Matej Evin):
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4eYKty6G4fg/0.jpg)](https://www.youtube.com/watch?v=4eYKty6G4fg)
+
 Please read [wiki](https://github.com/petrs/JCProfiler/wiki) for all details.
 
 ## Simple example
